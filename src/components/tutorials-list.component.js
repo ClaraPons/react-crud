@@ -71,7 +71,7 @@ export default class TutorialsList extends Component {
 
 
   alertBeforeRemoveAll() {
-    if (window.confirm("Do you really want to leave?")) {
+    if (window.confirm("Êtes-vous sûr de vouloir tout effacer ?")) {
       TutorialDataService.deleteAll()
       .then(response => {
         console.log(response.data);
