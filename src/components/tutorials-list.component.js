@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import TutorialDataService from "../services/tutorial.service.js";
 import { Link } from "react-router-dom";
-import { confirmable } from 'react-confirm';
 
 export default class TutorialsList extends Component {
   constructor(props) {

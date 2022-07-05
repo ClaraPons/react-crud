@@ -62,7 +62,7 @@ export default class AddTutorial extends Component {
   }
 
   publish(e){
-    const { checked } = e.target.value
+    const { checked } = e.target
     this.setState({
       published: checked,
     });
@@ -111,7 +111,6 @@ export default class AddTutorial extends Component {
                 <input 
                 type="checkbox"
                 onChange={e => this.publish(e)}
-
                 ></input>
               </div>
               <button onClick={this.saveTutorial} className="btn btn-success">
