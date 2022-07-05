@@ -114,7 +114,7 @@ export default class AddTutorial extends Component {
 
                 ></input>
               </div>
-              <button onClick={this.saveTutorial} onChange={e => this.publish(e)} className="btn btn-success">
+              <button onClick={this.saveTutorial} className="btn btn-success">
                 Submit
               </button>
             </div>
